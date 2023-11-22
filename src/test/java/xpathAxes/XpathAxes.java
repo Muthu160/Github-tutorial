@@ -30,7 +30,7 @@ public class XpathAxes {
 		System.out.println(text2);
 		Thread.sleep(3000);
 		driver.quit();
-		
+	System.out.println("sucess");
 
 }
 }
