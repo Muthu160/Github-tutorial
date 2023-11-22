@@ -32,7 +32,8 @@ public class XpathAxes {
 		driver.quit();
 
         System.out.println("sucess");
-		System.out.println("perfrct");
+		System.out.println("perfect");
+		System.out.println("Nil");
 		
 
 
