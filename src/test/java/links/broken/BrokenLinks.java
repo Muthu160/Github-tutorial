@@ -52,6 +52,7 @@ public class BrokenLinks {
 			}
 		}
 
+		
 		/*
 		 * int size = allLinks.size(); System.out.println("Total links in page " +
 		 * size);
