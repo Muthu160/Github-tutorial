@@ -34,7 +34,10 @@ public class BrokenLinks {
 		List<WebElement> allLinks = driver.findElements(By.tagName("a"));
 		int size = allLinks.size();
 		System.out.println("No of links present in page : " + size);
-
+        
+		int count =0;
+		int count1=0;
+		
 		ListIterator<WebElement> listIterator = allLinks.listIterator();
 		if (listIterator.hasNext()) {
 
