@@ -38,7 +38,6 @@ public class BrokenLinks {
 		int count1=0;
 		int count=0;
 
->>>>>>> QA
 		ListIterator<WebElement> listIterator = allLinks.listIterator();
 		if (listIterator.hasNext()) {
 
