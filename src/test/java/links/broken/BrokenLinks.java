@@ -57,8 +57,7 @@ public class BrokenLinks {
 				count1++;
 			}
 		}
-		System.out.println("Valid Links in page  "+count);
-		System.out.println("Invalid Links in page  "+count1);
+		
 		
 		
 		
