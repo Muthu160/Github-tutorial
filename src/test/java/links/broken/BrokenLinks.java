@@ -49,9 +49,11 @@ public class BrokenLinks {
 			int responseCode = hc.getResponseCode();
 			if (responseCode >= 200 && responseCode <= 299) {
 				System.out.println("Valid link : " + attribute);
+				count++;
 
 			} else {
 				System.out.println("Not a valid link : " + attribute);
+				count1++;
 			}
 		}
 
