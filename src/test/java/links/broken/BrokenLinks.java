@@ -34,13 +34,22 @@ public class BrokenLinks {
 		List<WebElement> allLinks = driver.findElements(By.tagName("a"));
 		int size = allLinks.size();
 		System.out.println("No of links present in page : " + size);
+<<<<<<< HEAD
         
 		int count =0;
 		int count1=0;
 		
+=======
+
+		
+		int count1=0;
+		int count=0;
+
+>>>>>>> QA
 		ListIterator<WebElement> listIterator = allLinks.listIterator();
 		if (listIterator.hasNext()) {
 
+			
 			WebElement next = listIterator.next();
 			String attribute = next.getAttribute("href");
 			URL u = new URL(attribute);
@@ -49,11 +58,19 @@ public class BrokenLinks {
 			int responseCode = hc.getResponseCode();
 			if (responseCode >= 200 && responseCode <= 299) {
 				System.out.println("Valid link : " + attribute);
+<<<<<<< HEAD
 				count++;
 
 			} else {
 				System.out.println("Not a valid link : " + attribute);
 				count1++;
+=======
+				count1++;
+
+			} else {
+				System.out.println("Not a valid link : " + attribute);
+				count++;
+>>>>>>> QA
 			}
 		}
 
